@@ -1,3 +1,6 @@
+import sys, os
+sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+
 from app.crypto_utils import generate_rsa_keypair
 
 if __name__ == "__main__":
