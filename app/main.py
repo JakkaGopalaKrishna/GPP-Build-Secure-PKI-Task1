@@ -5,8 +5,8 @@ from app.crypto_utils import load_private_key, load_public_key, rsa_oaep_decrypt
 import pyotp
 from datetime import datetime, timezone
 
-DATA_PATH = "/data/seed.txt"
-LAST_CODE_PATH = "/cron_out/last_code.txt"
+DATA_PATH = "data/seed.txt"
+LAST_CODE_PATH = "cron_out/last_code.txt"
 STUDENT_PRIV = "keys/student_private.pem"
 INSTRUCTOR_PUB = "keys/instructor_public.pem"
 
