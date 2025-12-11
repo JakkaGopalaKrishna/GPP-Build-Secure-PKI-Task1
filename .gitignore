@@ -1,0 +1,8 @@
+__pycache__/ 
+*.pyc
+.env
+encrypted_seed.txt
+/data/
+/cron_out/
+/cron/last_code.txt
+*.pem
